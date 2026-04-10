@@ -209,3 +209,47 @@ body {
         margin-bottom: 15px;
     }
 }
+.search-section {
+    background: linear-gradient(135deg, #fdfcf0 0%, #f3f4f1 100%);
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+}
+
+.search-content h1 {
+    font-size: 2.5rem;
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.search-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    background: transparent;
+}
+
+.search-container button {
+    background-color: #2d3748; 
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
