@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>add-course</title>
+<link rel="icon" type="image/png" href="photos/logo1.png">
+<meta name="author" content="mohamed mohamed fathy ali">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Logic</h1>
+        </div>
+        <ul class="navbar-links">
+            <li><a target="_self" href="index.html">Home</a></li>
+            <li><a target="_self" href="courses.html">My Courses</a></li>
+            <li><a target="_self" href="add-course.html">Add Course</a></li>
+            <li><a target="_self" href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="right-section">
+            <ul class="navbar-links">
+                <li><a target="_self" href="courses.html"><img src="photos/search.png" alt="Search"></a></li>
+                <li><a><img src="photos/user.png" alt="User profile"></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+  <section class="add-courses">
+   <legend>
+     <h2>Add New Course</h2>
+     <p>Fill in the details below to track a new learning adventure.</p> 
+   </legend>
+   <fieldset>
+     <form>
+       <div>
+         <label for="course-name"> Course Name</label>
+         <input id="course-name" type="text" required placeholder="Ai,java script.......">
+       </div>
+        <div>
+         <label for="Instructor"> Instructor</label>
+         <input id="Instructor" type="text" required placeholder=" Dr, eng........">
+       </div>
+        <div>
+         <label for="Credit-Hours"> Credit Hours</label>
+         <input id="Credit-Hours" type="text" required placeholder="2h,5h.........">
+       </div>
+        <div>
+         <label for="Notes">Notes </label>
+         <input id="Notes" type="text" required placeholder="Completed,In Progress..........">
+       </div>
+       <input type="submit" value="Save Course">
+     </form>
+   </fieldset>
+  </section>
+</main>
+<footer class="footer">
+    <p>&copy; 2026 Curator Educational Services. All rights reserved.</p>
+</footer>
+</body>
+</html>
